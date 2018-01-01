@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include "Resource.h"
 
-static TCHAR szClassName[] = TEXT("RSS Reader");
+const TCHAR szClassName[] = TEXT("RSS Reader");
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
